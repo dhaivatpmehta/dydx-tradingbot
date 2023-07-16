@@ -4,7 +4,7 @@ from decouple import config
 # !!!! SELECT MODE !!!!
 MODE = "DEVELOPMENT"
 
-# Close all open positions and orders
+# Close all open positions and orders  - when move to mainnet put this False
 ABORT_ALL_POSITIONS = True
 
 # Find Cointegrated Pairs
